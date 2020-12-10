@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html>
-<title>HTML UI Juna ja bois yhtiöt</title>
+<title>UI Juna ja bois yhtiöt</title>
 
 <script>
-  console.log('DD')
+  var otsikkoElementti = document.getElementById("otsikko");">
+  
+  function poistaOtsikko() {
+    otsikkoElementti.remove();
+  }
+  
+  otsikkoElementti.onclick = poistaOtsikko;
+  
 </script>
 
 <body style="background-color:#FF4BFC;">
